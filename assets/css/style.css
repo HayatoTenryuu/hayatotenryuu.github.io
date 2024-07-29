@@ -971,10 +971,11 @@ main {
 
 .mapbox figure { height: 100%; }
 
-.contact-form-item {
+.contact-form .contact-form-item {
     color: var(--white-2);
     font-size: var(--fs-6);
     font-weight: var(--fw-400);
+    margin-bottom: 10px;
 }
 
 .mapbox iframe {
@@ -983,8 +984,6 @@ main {
     border: none;
     filter: grayscale(1) invert(1);
 }
-
-.contact-form { margin-bottom: 10px; }
 
 .form-title { margin-bottom: 20px; }
 
