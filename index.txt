@@ -2,8 +2,8 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
+alt = Patrick Faulkner
+Patrick Faulkner
 Web developer
 
 Show Contacts
@@ -48,14 +48,6 @@ The most modern and high-quality design made at a professional level.
 alt = Web development icon
 Web development
 High-quality development of sites at the professional level.
-
-alt = mobile app icon
-Mobile apps
-Professional development of applications for iOS and Android.
-
-alt = camera icon
-Photography
-I make high-quality photos of any category at a professional level.
 
 
 ## testimonials
