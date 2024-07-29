@@ -403,7 +403,7 @@ main {
   gap: 16px;
 }
 
-.contact-item {
+.contact-item .contact-form-item {
   min-width: 100%;
   display: flex;
   align-items: center;
