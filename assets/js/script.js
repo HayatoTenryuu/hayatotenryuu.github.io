@@ -96,13 +96,14 @@ const filterFunc = function (selectedValue) {
 
 // add event in all filter button items for large screen
 let lastClickedBtn = filterBtn[0];
+const betterFilter = document.querySelectorAll("[data-filter-item]");
 
 for (let i = 0; i < filterBtn.length; i++) {
 
   filterBtn[i].addEventListener("click", function () {
 
-    let selectedValue = this.innerText.toLowerCase();
-    selectValue.innerText = this.innerText;
+    let selectedValue = betterFilter.innerText.toLowerCase();
+    selectValue.innerText = betterFilter.innerText;
     filterFunc(selectedValue);
 
     lastClickedBtn.classList.remove("active");
